@@ -3,8 +3,8 @@ const World= Matter.World;
 const Bodies = Matter.Bodies;
 
 var engine, world;
-var hammer;
-var iron, stone, rubber;
+var stone,rubber,hammer;
+var iron;
 
 
 function setup(){
@@ -16,9 +16,9 @@ function setup(){
     hammer = new Hammer(10,100);
 
     
-    iron = new Iron(200,200);
-    stone = new Stone(200,230);
-    rubber = new Rubber(200,300);
+    iron = new Iron(300,350);
+    stone = new Stone(700,320,100,100);
+    rubber=new Rubber(900,450,70);
 
   
 
